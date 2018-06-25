@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+<html>
+
+<!-- Mirrored from www.theforagermagazine.com/5/1 by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 25 Jun 2018 06:16:17 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+<!--
+        ===
+		Author: Sandeepa Nadahalli
+        This comment should NOT be removed.
+
+        The Forager v0.0.1
+
+        Copyright 2014-2017 Sambhrama Solutions (www.sambhrama.com)
+       
+        ===
+    -->
+
+<title>The Forager</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Editor's Note " />
+<meta property="og:site_name" content="THE FORAGER MAGAZINE" />
+<meta property="og:url"
+	content="1.html" />
+<meta property="og:description" content="  " />
+<meta property="og:image" content="null" />
+<link rel="shortcut icon" href="../img/favi.png">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet"
+	href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet"
+	href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script
+	src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="../style/smoothzoom.css">
+<script type="text/javascript" src="../js/easing.js"></script>
+<script type="text/javascript" src="../js/smoothzoom.min.js"></script>
+<script>
+	(function(i, s, o, g, r, a, m) {
+		i['GoogleAnalyticsObject'] = r;
+		i[r] = i[r] || function() {
+			(i[r].q = i[r].q || []).push(arguments)
+		}, i[r].l = 1 * new Date();
+		a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+		a.async = 1;
+		a.src = g;
+		m.parentNode.insertBefore(a, m)
+	})(window, document, 'script', 'http://www.google-analytics.com/analytics.js',
+			'ga');
+
+	ga('create', 'UA-55244247-1', 'auto');
+	ga('send', 'pageview');
+</script>
+<style>
+body {
+	font: 14px 'Courier New';
+}
+
+.navbar-default .navbar-collapse,.navbar-default .navbar-form {
+	border-color: #ffffff;
+}
+
+.navbar-default {
+	background-color: #ffffff;
+	border-color: #ffffff;
+	background-image: none;
+	background-repeat: none;
+	border-radius: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.navbar {
+	margin-top: 20px;
+	margin-bottom: 80px;
+}
+
+.navbar-default .navbar-nav>li>a {
+	font: 14px 'Arial';
+	color: #231f20;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #777;
+}
+
+.container-fluid {
+	padding-right: 15%;
+	padding-left: 15%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.menu {
+	margin-left: 25px;
+}
+
+.menulinks {
+	margin-top: 15px;
+	margin-right: 25px;
+}
+
+@media all and (min-width: 760px) {
+	.navbar {
+		margin-bottom: 0px;
+	}
+	.container-fluid {
+		padding-right: 5%;
+		padding-left: 5%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.artheader {
+		max-width: 900px;
+	}
+	.artheader h2 {
+		font: 20px 'Courier New';
+		text-transform: uppercase;
+		font-weight: bold;
+		color: #42210b;
+		line-height: 32px;
+		margin-left: 40px;
+		margin-bottom: 5px;
+	}
+	.artheader h3 {
+		margin-left: 78px;
+		margin-bottom: 55px;
+		font: 17px 'Courier New';
+		color: #42210b;
+		line-height: 23px;
+		margin-top: 0px;
+	}
+	.contentarticles {
+		margin-left: 10px;
+		margin-bottom: 20px;
+	}
+	.amiddle {
+		max-width: 590px;
+		margin-left: 95px;
+	}
+	.arttopline {
+		margin-left: 34px;
+		max-width: 970px;
+	}
+	.caleft {
+		margin-left: 32px;
+		max-width: 200px;
+	}
+	.caright {
+		max-width: 1050px;
+	}
+	.scrolltop {
+		width: 100%;
+		position: fixed;
+		bottom: 0px;
+
+		/*text-align, background-color, and other specific styles can be applied here. You can change the height from 30px to anything which suits your needs. You can even comment Left: 0px & Right: 0px, but to make sure that it works in all browsers, lets leave them there.*/
+	}
+}
+
+@media ( max-width :760px) {
+	.navbar-nav {
+		float: right;
+	}
+}
+
+@media ( max-width :760px) {
+	.artheader h2 {
+		text-align: center;
+		font: 20px 'Courier New';
+		text-transform: uppercase;
+		font-weight: bold;
+		color: #42210b;
+		line-height: 32px;
+		margin-bottom: 5px;
+	}
+	.artheader h3 {
+		text-align: center;
+		margin-bottom: 55px;
+		font: 17px 'Courier New';
+		color: #42210b;
+		line-height: 23px;
+		margin-top: 0px;
+	}
+}
+
+@media ( max-width :480px) {
+	.img-logo {
+		width: 100px;
+		height: 57px;
+	}
+}
+
+.hline {
+	border-top: 2px dotted #42210b;
+	margin-bottom: 40px;
+}
+
+.amiddle {
+	font: 14px 'Courier New';
+	color: #333333;
+	line-height: 20px;
+	padding-right: 20px;
+	border-right: 2px dotted #42210b;
+}
+
+.aleft {
+	margin-top: 20px;
+}
+
+.aright {
+	padding-right: 0px;
+	font: 14px 'Courier New';
+	color: #333333;
+	line-height: 20px;
+}
+
+.aleft p {
+	font: 12px 'Courier New';
+	letter-spacing: 1px;
+	line-height: 20px;
+}
+
+.artlinkactive {
+	text-transform: uppercase;
+	color: black;
+	font-weight: bold
+}
+
+.artlink {
+	text-transform: uppercase;
+	color: #868383;
+	font-weight: bold
+}
+
+.ranameactive {
+	display: block;
+	color: blcak;
+	margin-bottom: 20px;
+}
+
+.raname {
+	display: block;
+	color: #868383;
+	margin-bottom: 20px;
+}
+
+.calink {
+	font: 14px 'Courier New';
+	text-transform: uppercase;
+	color: #333333;
+	font-weight: bold;
+	line-height: 18px;
+}
+
+.caauthor {
+	font: 12px 'Courier New';
+	line-height: 16px;
+	color: #333333;
+}
+
+.cablurb {
+	font: 12px 'Courier New';
+	text-transform: uppercase;
+	line-height: 16px;
+	color: #333333;
+}
+
+.contentarticles h3 {
+	line-height: 0;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.contentarticles p {
+	margin-left: 25px;
+}
+.athourbio {
+	margin-top: 10px;
+	font: 12px 'Arial';
+	color: #333333;
+	line-height: 18px;
+	margin-left: 35px;
+}
+
+.notes {
+	font: 12px 'Courier New';
+	line-height: 16px;
+	color: #333333;
+}
+
+a:hover {
+	text-decoration: none;
+}
+</style>
+</head>
+<body>
+	<nav class="navbar navbar-default" role="navigation">
+		<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button style="margin-top: 15px;" type="button"
+					class="navbar-toggle" data-toggle="collapse"
+					data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span> <span
+						class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="../index.html"><img id="flogo"
+					src="../img/combinelogo.png" class="img-logo" alt="logo"></a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse"
+				id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav menu">
+					<li><a href="../aboutus.html" class="menulinks">about us</a></li>
+					<li class="dropdown"><a href="#"
+						class="dropdown-toggle menulinks" data-toggle="dropdown">issues<span
+							class="caret"></span></a>
+						<ul class="dropdown-menu" role="menu">
+							
+						              <li><a class="issue" href="../1.html">1.&nbsp;/2014 </a></li>
+						              
+						              <li><a class="issue" href="../2.html">2.&nbsp;/2015 </a></li>
+						              
+						              <li><a class="issue" href="../3.html">3.&nbsp;/2015 </a></li>
+						              
+						              <li><a class="issue" href="../4.html">4.&nbsp;/2015 </a></li>
+						              
+						              <li><a class="issue" href="../5.html">5.&nbsp;/2015 </a></li>
+						              
+						              <li><a class="issue" href="../6.html">6.&nbsp;/2016 </a></li>
+						              
+						              <li><a class="issue" href="../7.html">7.&nbsp;/2016 </a></li>
+						              
+						              <li><a class="issue" href="../8.html">8.&nbsp;/2016 </a></li>
+						              
+						              <li><a class="issue" href="../9.html">9.&nbsp;/2017 </a></li>
+						              
+						              <li><a class="issue" href="../10.html">10.&nbsp;/2017 </a></li>
+						              
+
+						</ul></li>
+					<li><a href="http://foragercollective.wordpress.com/" class="menulinks" target="_blank">forager collective</a></li>
+				</ul>
+
+			</div>
+			<!-- /.navbar-collapse -->
+		</div>
+		<!-- .container-fluid -->
+	</nav>
+	<div class="container-fluid">
+		<br> <br> <br>
+		<!-- article page starts -->
+		<div id="farticle" class="row display">
+			<div class="row article1 article">
+				<div class="row">
+					<div class="artheader col-lg-8">
+						<h2>1.&nbsp;Editor's Note
+						</h2>
+						<h3>
+							
+                             <a style="margin-left: 10px; margin-right: 10px;"
+                                class="pull-right" target="_blank"
+                                href="http://www.facebook.com/sharer/sharer.php?u=http://www.theforagermagazine.com/5/1"><img
+                                height="20" width="20" src="../img/facebook.png"></a> <a
+                                style="margin-left: 10px; margin-right: 10px;"
+                                class="pull-right" target="_blank"
+                                href="http://twitter.com/share?text=Editor's%20Note%20&amp;url=http://www.theforagermagazine.com/5/1&amp;via=TheForagerMag"><img
+                                height="20" width="20" src="../img/twitter.png"></a>
+						</h3>
+					</div>
+				</div>
+				<hr class="hline arttopline">
+				<div class="amiddle col-lg-9">
+					<p>Trust the clever lackeys of capitalism to come up with a catchy line.</p>
+
+<p>Cafe Coffee Day is a chain of coffee shops in India. Though conceived and popularised in the southern states at first, the ubiquitous red and purple of these cafes colours every little town these days, all over and country and in some countries abroad. The coffees are terrible (if they can be called that) but coffee is not the point of these places to begin with. Their tagline evokes a thousand stories - where not actual, they pave the way for the imagining of a hundred memories, of coffees made and had, with lovers or friends or alone, of settings and places and circumstances.</p>
+
+<p><em>&#39;A lot happens over coffee&#39;</em>. It certainly does.</p>
+
+<p>There seems to be something in the nature of most beverages - coffee or tea or something stronger - that lends itself so gloriously to romanticism. It could be the fire that makes them, for around the fire was where the first stories were told. Or maybe it is social conditioning. Or something similarly pedestrian. I do not know. But a lot does happen over coffee.</p>
+
+<p>With the romance that fills a cup comes a century old practice of soothsaying, be it in the reading of left over tea leaves or seeing the future in the manner coffee grounds arrange themselves at the end of the cup. Perhaps they might tell the future of the world. Or of a country. This is what Isaac Wurmann wonders, sitting in a taverna in sunny Greece with a strong cup &ldquo;sweetened with mounds of sugar.&quot; If a lifetime can be measured in tea versus coffee, the writings of family history might be sweet indeed. The very English tradition of a cup of tea in the afternoon, with a scone or cake perhaps, had given Alex Lyons&#39; family a new surname. With that came a new identity mired in complicated politics that Alex found himself faced with after a casual conversation in Africa.</p>
+
+<p>Family is a strange fellow, at the best of times. Habits and traditions long learned catch you at corners when least convenient, most unexpected. Family is comfort food, if not at least a lot else. Jaideep Sen premises on a basic potato recipe of his mother&#39;s to build a comprehensive picture of the complicated web of packaging, ad copy, labels and marketing strategies that go into the making and selling of food as &#39;organic&#39; or &#39;all natural&#39; or &#39;healthy&#39;. Marketing traps are traps the best of us fall into, swayed by the earthy colours and glossy phrases that sell an illusion. But creating illusions are the only way, when there are certain things to sell, like reconstituted Cajun rice, or a war. With wars being conceived increasingly for economic reasons more than any other, manufacturing consent for such wars is an all important part of the political power machinery. Soldiers are illusioned into feeling comfortable by giving them food just as it is cooked at home, bridging the essential gap between the war front and a peaceful home atmosphere. What happens when that crucial gap is so thoroughly bridged? What is the result of such subtle mind control? Jesse Connuck finds out; Jaideep touches upon the subject of possible physiological impact of food as well.</p>
+
+<p>For a Collective that runs a wholly online magazine, its members are largely social media recluses. Most of us have scant social media presence at the personal level. Such anachronistic tendencies apart, we remain very aware of how important the virtual world is. Our boast of having readers from a hundred plus countries should surely include Facebook, the largest &#39;country&#39; in the world. Here is a question to ponder. What would the billions of photos, &#39;likes&#39;, shares and what-nots on Facebook taste like? Audrey Samson and Francisco Gallordo turned the personal data of the participants in their project into multi-coloured cakes. Every flavour is a personalised ad or a Follower list or some such. Could we eat this cake and reclaim a layer of the privacy we enthusiastically gave up when we first signed up on any site?</p>
+
+<p>In the age of big data and privacy concerns, eating this cake is an experience of &quot;the absurdity of quantification.&quot; It sure is an absurd world we are turning ourselves into.</p>
+
+<p>Bring out a cup of tea, or coffee, or a glass of something else. Have a slice of cake, if it is evening already. And enjoy this issue.</p>
+
+<p>Cheers!</p>
+
+<p>&nbsp;</p>
+
+<p>---&gt;</p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:12px"><span style="font-family:arial,helvetica,sans-serif"><em>Deepa Bhasthi </em>is a writer living and working in Bengaluru, India. Her works are available at <a href="http://dbhasthi.blogspot.in/">http://dbhasthi.blogspot.in</a>.&nbsp;</span></span><span style="font-size:12px"><span style="font-family:arial,helvetica,sans-serif">She is the Editor at <em>The Forager.</em></span></span></p>
+
+<p>&nbsp;</p>
+
+
+					<br> <br>
+				</div>
+				<div class="aright col-lg-3">
+					<ol>
+						
+						
+						<li><a class="artlinkactive"
+							href="1.html">
+								Editor's Note </a> <span class="ranameactive"></span></li>
+						
+						
+						<li><a class="artlink"
+							href="2.html">
+								When Home Comes to War. And Vice Versa.</a> <span class="raname">Jesse Connuck</span></li>
+						
+						
+						<li><a class="artlink"
+							href="3.html">
+								Coffee and the Fine Art of Soothsaying</a> <span class="raname">Isaac Wurmann</span></li>
+						
+						
+						<li><a class="artlink"
+							href="4.html">
+								'Let Them Eat cake!!', She Said</a> <span class="raname">Audrey Samson and Francisco Gallardo</span></li>
+						
+						
+						<li><a class="artlink"
+							href="5.html">
+								A Spot of Tea for London's Jews</a> <span class="raname">Alex Lyons</span></li>
+						
+						
+						<li><a class="artlink"
+							href="6.html">
+								Cooking Potatoes in a Pot</a> <span class="raname">Jaideep Sen</span></li>
+						
+					</ol>
+
+					<a class="hide scrolltop" href="javascript:void(0)"><img
+						src="../img/uparrow.png"></a> <br> <br>
+				</div>
+			</div>
+
+
+			<!-- article page ends -->
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$(".amiddle img").attr("rel","zoom");
+			$(".amiddle img").addClass("img-responsive");
+			
+			var dvImages = $('.amiddle img'); 
+
+		      $.each(dvImages, function(index) {
+
+		        var vsrc = $(this).attr('src');
+
+		        vsrc = vsrc + "=s1000";
+
+		        $(this).attr('src', vsrc);
+
+		      });
+		      
+			$(".scrolltop").click(function() {
+				window.scrollTo(0, 0);
+			});
+
+			jQuery(function($) {
+				function fixDiv() {
+					if ($(window).scrollTop() > 400)
+						$(".scrolltop").removeClass("hide");
+					else
+						$(".scrolltop").addClass("hide");
+				}
+				$(window).scroll(fixDiv);
+				fixDiv();
+			});
+		});
+	</script>
+	<script type="text/javascript">
+		//Add your javascript for large screens here
+		$(window).load(function() {
+			$('img').smoothZoom({
+			// Options go here
+			});
+		});
+	</script>
+</body>
+
+<!-- Mirrored from www.theforagermagazine.com/5/1 by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 25 Jun 2018 06:16:17 GMT -->
+</html>

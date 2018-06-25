@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+
+
+
+
+
+<html>
+
+<!-- Mirrored from www.theforagermagazine.com/9 by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 25 Jun 2018 05:58:01 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+<!--
+        ===
+		Author: Sandeepa Nadahalli
+
+        The Forager v0.0.2
+
+        Copyright 2014-2017 Sambhrama Solutions (www.sambhrama.com)
+       
+        ===
+    -->
+    
+<title>The Forager</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:type" content="website" />
+<meta property="og:title" content="THE FORAGER MAGAZINE" />
+<meta property="og:site_name" content="THE FORAGER MAGAZINE" />
+<meta property="og:url" content="9.html" />
+<meta property="og:description"
+  content="" />
+<meta property="og:image"
+  content="http://lh3.googleusercontent.com/nF6_QjNr8nf86aqXuT65r7I2NNsWRRhYSFXKa6cIq8LrAbN0FAo9q4gWqU73TjJwJzS3RO5U3XRNm3cqdIqIfmpdgcrjUQ" />
+<link rel="shortcut icon" href="img/favi.png">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet"
+	href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet"
+	href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script
+	src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="style/smoothzoom.css">
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript" src="js/smoothzoom.min.js"></script>
+<script>
+	(function(i, s, o, g, r, a, m) {
+		i['GoogleAnalyticsObject'] = r;
+		i[r] = i[r] || function() {
+			(i[r].q = i[r].q || []).push(arguments)
+		}, i[r].l = 1 * new Date();
+		a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+		a.async = 1;
+		a.src = g;
+		m.parentNode.insertBefore(a, m)
+	})(window, document, 'script', 'http://www.google-analytics.com/analytics.js',
+			'ga');
+
+	ga('create', 'UA-55244247-1', 'auto');
+	ga('send', 'pageview');
+</script>
+<style>
+body {
+	font: 14px 'Courier New';
+}
+
+.navbar-default .navbar-collapse,.navbar-default .navbar-form {
+	border-color: #ffffff;
+}
+
+.navbar-default {
+	background-color: #ffffff;
+	border-color: #ffffff;
+	background-image: none;
+	background-repeat: none;
+	border-radius: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.navbar {
+	margin-top: 20px;
+	margin-bottom: 80px;
+}
+
+.navbar-default .navbar-nav>li>a {
+	font: 14px 'Arial';
+	color: #231f20;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #777;
+}
+
+.container-fluid {
+	padding-right: 15%;
+	padding-left: 15%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.menu {
+	margin-left: 25px;
+}
+
+.menulinks {
+	margin-top: 15px;
+	margin-right: 25px;
+}
+
+@media all and (min-width: 760px) {
+	.navbar {
+		margin-bottom: 0px;
+	}
+	.container-fluid {
+		padding-right: 5%;
+		padding-left: 5%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.artheader {
+		max-width: 900px;
+	}
+	.artheader h2 {
+		font: 20px 'Courier New';
+		text-transform: uppercase;
+		font-weight: bold;
+		color: #42210b;
+		line-height: 32px;
+		margin-left: 40px;
+		margin-bottom: 5px;
+	}
+	.artheader h3 {
+		margin-left: 78px;
+		margin-bottom: 55px;
+		font: 17px 'Courier New';
+		color: #42210b;
+		line-height: 23px;
+		margin-top: 0px;
+	}
+	.contentarticles {
+		margin-left: 10px;
+		margin-bottom: 20px;
+	}
+	.amiddle {
+		max-width: 590px;
+		margin-left: 95px;
+	}
+	.arttopline {
+		margin-left: 34px;
+		max-width: 970px;
+	}
+	.caleft {
+		margin-left: 32px;
+		max-width: 200px;
+	}
+	.caright {
+		max-width: 1050px;
+	}
+	.scrolltop {
+		width: 100%;
+		position: fixed;
+		bottom: 0px;
+
+		/*text-align, background-color, and other specific styles can be applied here. You can change the height from 30px to anything which suits your needs. You can even comment Left: 0px & Right: 0px, but to make sure that it works in all browsers, lets leave them there.*/
+	}
+}
+
+@media ( max-width :760px) {
+	.navbar-nav {
+		float: right;
+	}
+}
+
+@media ( max-width :760px) {
+	.artheader h2 {
+		text-align: center;
+		font: 20px 'Courier New';
+		text-transform: uppercase;
+		font-weight: bold;
+		color: #42210b;
+		line-height: 32px;
+		margin-bottom: 5px;
+	}
+	.artheader h3 {
+		text-align: center;
+		margin-bottom: 55px;
+		font: 17px 'Courier New';
+		color: #42210b;
+		line-height: 23px;
+		margin-top: 0px;
+	}
+}
+
+@media ( max-width :480px) {
+	.img-logo {
+		width: 100px;
+		height: 57px;
+	}
+}
+
+.hline {
+	border-top: 2px dotted #42210b;
+	margin-bottom: 40px;
+}
+
+.amiddle {
+	font: 14px 'Courier New';
+	color: #333333;
+	line-height: 20px;
+	padding-right: 20px;
+	border-right: 2px dotted #42210b;
+}
+
+.aleft {
+	margin-top: 20px;
+}
+
+.aright {
+	padding-right: 0px;
+	font: 14px 'Courier New';
+	color: #333333;
+	line-height: 20px;
+}
+
+.aleft p {
+	font: 12px 'Courier New';
+	letter-spacing: 1px;
+	line-height: 20px;
+}
+
+.artlinkactive {
+	text-transform: uppercase;
+	color: black;
+	font-weight: bold
+}
+
+.artlink {
+	text-transform: uppercase;
+	color: #868383;
+	font-weight: bold
+}
+
+.ranameactive {
+	display: block;
+	color: blcak;
+	margin-bottom: 20px;
+}
+
+.raname {
+	display: block;
+	color: #868383;
+	margin-bottom: 20px;
+}
+
+.calink {
+	font: 14px 'Courier New';
+	text-transform: uppercase;
+	color: #333333;
+	font-weight: bold;
+	line-height: 18px;
+}
+
+.caauthor {
+	font: 12px 'Courier New';
+	line-height: 16px;
+	color: #333333;
+}
+
+.cablurb {
+	font: 12px 'Courier New';
+	text-transform: uppercase;
+	line-height: 16px;
+	color: #333333;
+}
+
+.contentarticles h3 {
+	line-height: 0;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.contentarticles p {
+	margin-left: 25px;
+}
+
+.articleimg {
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+.athourbio {
+	margin-top: 10px;
+	font: 12px 'Arial';
+	color: #333333;
+	line-height: 18px;
+	margin-left: 35px;
+}
+
+.notes {
+	font: 12px 'Courier New';
+	line-height: 16px;
+	color: #333333;
+}
+
+a:hover {
+	text-decoration: none;
+}
+</style>
+</head>
+<body>
+	<nav class="navbar navbar-default" role="navigation">
+		<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button style="margin-top: 15px;" type="button"
+					class="navbar-toggle" data-toggle="collapse"
+					data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span> <span
+						class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html"><img id="flogo"
+					src="img/combinelogo.png" class="img-logo" alt="logo"></a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse"
+				id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav menu">
+					<li><a href="aboutus.html" class="menulinks">about us</a></li>
+					<li class="dropdown"><a href="#"
+						class="dropdown-toggle menulinks" data-toggle="dropdown">issues<span
+							class="caret"></span></a>
+						<ul class="dropdown-menu" role="menu">
+							
+						              <li><a class="issue" href="1.html">1.
+
+						                   /2014 </a></li>
+						              
+						              <li><a class="issue" href="2.html">2.
+
+						                   /2015 </a></li>
+						              
+						              <li><a class="issue" href="3.html">3.
+
+						                   /2015 </a></li>
+						              
+						              <li><a class="issue" href="4.html">4.
+
+						                   /2015 </a></li>
+						              
+						              <li><a class="issue" href="5.html">5.
+
+						                   /2015 </a></li>
+						              
+						              <li><a class="issue" href="6.html">6.
+
+						                   /2016 </a></li>
+						              
+						              <li><a class="issue" href="7.html">7.
+
+						                   /2016 </a></li>
+						              
+						              <li><a class="issue" href="8.html">8.
+
+						                   /2016 </a></li>
+						              
+						              <li><a class="issue" href="9.html">9.
+
+						                   /2017 </a></li>
+						              
+						              <li><a class="issue" href="10.html">10.
+
+						                   /2017 </a></li>
+						              
+
+
+						</ul></li>
+					<li><a href="http://foragercollective.wordpress.com/" target="_blank" class="menulinks">forager collective</a></li>
+				</ul>
+
+			</div>
+			<!-- /.navbar-collapse -->
+		</div>
+		<!-- .container-fluid -->
+	</nav>
+	<div class="container-fluid">
+		<br> <br> <br>
+		<!-- home page starts -->
+		<div id="fhome" class="row display">
+		<br> <br><br>
+			<a href="9/contents.html"><img id="homeimage"
+				src="http://lh3.googleusercontent.com/nF6_QjNr8nf86aqXuT65r7I2NNsWRRhYSFXKa6cIq8LrAbN0FAo9q4gWqU73TjJwJzS3RO5U3XRNm3cqdIqIfmpdgcrjUQ=s1000" class="issue img-responsive"
+				alt="Responsive image"></a> <br> <br>
+		</div>
+		<!-- home page ends -->
+		<!-- content page starts -->
+	</div>
+</body>
+
+<!-- Mirrored from www.theforagermagazine.com/9 by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 25 Jun 2018 05:58:02 GMT -->
+</html>
